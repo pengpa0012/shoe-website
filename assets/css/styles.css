@@ -1,0 +1,214 @@
+body{
+    background: url('../img/dark_Tire.png') repeat;
+    --white: #dedede;
+    --black: #252525;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.video-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: rgba(0,0,0,.65);
+}
+
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+
+.primary{
+    background: transparent;
+    color: var(--white);
+    border: solid 1px var(--white);
+    transition: 250ms ease-in;
+}
+
+.primary:hover{
+    background: var(--white);
+    color: var(--black);
+}
+
+.secondary{
+    background: var(--black);
+    color: var(--white);
+    transition: 250ms ease-in;
+}
+
+.secondary:hover{
+    background: var(--white);
+    color: var(--black);
+    border: solid 1px var(--black);
+}
+
+.secondary-invert{
+    background: var(--white);
+    color: var(--black);
+    transition: 250ms ease-in;
+}
+
+.secondary-invert:hover{
+    background: var(--black);
+    color: var(--white);
+    border: solid 1px var(--white);
+}
+
+.rotate-text{
+    transform: rotate(-90deg);
+    top: 50%;
+}
+
+.text-align-justify{
+    text-align: justify;
+}
+
+.rotate-text.left{
+    left: 0;
+}
+
+.rotate-text.right{
+    right: 0;
+}
+
+.stroke-text{
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+
+.about{
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../img/about.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+
+.scroll{
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.scroll::-webkit-scrollbar{
+    width: 13px;
+    background: transparent;
+    border: solid 1px #eeeeee;
+    border-radius: 5px;
+}
+
+.scroll::-webkit-scrollbar-thumb{
+    background: #c5c5c5;
+    border-radius: 5px;
+}
+
+.shoe{
+    cursor: pointer;
+}
+
+.player-shoe{
+    border: solid 1px #eeeeee;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.player-shoe:hover,
+.shoe:hover{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.gray-hover{
+    filter: grayscale(100%);
+    transition: 250ms ease-in;
+}
+
+.gray-hover:hover{
+    filter: grayscale(0);
+}
+
+.box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 2000;
+    transition: 200ms ease-in;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.box.active{
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.box.active,
+.overlay.active{
+    opacity: 1;
+    pointer-events: all;    
+}
+
+[data-close]{
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+}
+
+footer li,
+footer img{
+    cursor: pointer;
+    transition: 200ms ease-in;
+}
+
+footer li:hover{
+    text-decoration: underline;
+}
+
+footer img:hover{
+    transform: translateY(-3px);
+}
+
+
+@media (max-width: 768px){
+    .box{
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 576px){
+    .place-img,
+    .shoe{
+        width: 55% !important;
+        margin: auto !important;
+        display: flex;
+    }
+
+    .gray-hover{
+        filter: grayscale(0);
+    }
+}
+
+@media (min-width: 768px){
+    .position-sm-absolute{
+        position: absolute !important;
+    }
+}

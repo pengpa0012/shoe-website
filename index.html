@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Website</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="./assets/js/script.js" defer></script>
+</head>
+<body>
+    <header class="fixed-top navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg container py-0 overflow-x-hidden">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="nav align-items-start align-items-lg-center flex-column flex-lg-row">
+                    <li class="nav-item">
+                        <a href="#shoes" class="nav-link px-0 px-md-3 text-dark">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link px-0 px-md-3 text-dark">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link px-0 px-md-3 text-dark">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#shoes" class="nav-link px-0 px-md-3">
+                            <button class="btn secondary">Shop Now</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>  
+        </nav>       
+    </header>
+    <div class="min-vh-100 d-flex align-items-center position-relative">
+        <div class="container overflow-x-hidden d-flex flex-column flex-md-row justify-content-between py-5">
+            <div class="my-5 mb-md-0 pe-none d-none d-md-block">
+                <img src="./assets/img/lillard.png" class="w-100">         
+            </div>
+            <div class="text-white pt-5 pt-sm-3">
+                <span class="fw-bold display-1 mb-4 d-block stroke-text">BELIEVE<br>IN <br>YOURSELF</span>
+                <p class="fs-5 mb-4 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates nihil porro, quo reiciendis ipsa earum dolorum neque velit veritatis officiis.</p> 
+                <a href="#shoes">
+                    <button class="btn primary">Browse Shoes</button>
+                </a>
+            </div>         
+        </div>
+        <span class="rotate-text fs-3 fw-light text-white-50 position-absolute d-none d-md-block pe-none">Damian Lillard</span>   
+        <video src="./assets/video/front.mp4" muted loop autoplay class="d-none d-md-block"></video>    
+        <div class="video-overlay d-none d-md-block"></div>    
+    </div>
+    <div class="py-5 about" id="about">
+        <div class="container overflow-x-hidden">
+            <div class="py-sm-5 my-sm-5">
+                <div class="d-flex">
+                    <div class="col-12 col-md-6 text-white">
+                        <h2 class="display-3 mb-3" data-aos="fade-up"
+                        data-aos-duration="2000">About</h2>
+                        <p class="fs-5 text-white-50" data-aos="fade-up"
+                        data-aos-duration="2000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est consectetur explicabo perspiciatis iusto magnam! Dolorem, iure distinctio. Doloribus, nesciunt possimus.</p>
+                        <p class="fs-5 text-white-50" data-aos="fade-up"
+                        data-aos-duration="2000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, hic?</p>
+                        <button class="btn secondary-invert" data-aos="fade-right"
+                        data-aos-duration="2000">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-5">
+        <h2 class="display-6 mb-3 text-white text-center" data-aos="fade-up"
+        data-aos-duration="2000">Professional's Shoe List</h2>
+        <div class="pb-2 pb-md-5 text-white position-relative">
+            <div class="container overflow-x-hidden d-flex align-items-center flex-column flex-md-row">
+                <div class="col-12 col-md-6 mb-5 mb-md-0 px-2 text-center">
+                    <img src="./assets/img/bryant.png" class="w-100" data-aos="fade-right"
+                    data-aos-duration="2000">
+                    <span class="rotate-text left fs-3 fw-light text-white-50 position-static position-sm-absolute">Kobe Bryant</span>  
+                </div>
+                <div class="col-12 col-md-6 scroll py-3 px-2" data-aos="fade-left"
+                data-aos-duration="2000">
+                    <div class="d-flex flex-column flex-lg-row align-items-center player-shoe my-2 p-md-9 py-md-0">
+                        <div class="col-12 col-lg-6">
+                            <img src="./assets/img/Nike-Kobe-4-Protro-Snake.jpg" class="w-100 h-100">
+                        </div>            
+                        <div class="col-12 col-lg-6 p-2">
+                            <h3 class="fs-5">Nike Kobe 4 Protro Snake</h3>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row align-items-center player-shoe my-2 p-md-9 py-md-0">
+                        <div class="col-12 col-lg-6">
+                            <img src="./assets/img/Nike-Kobe-5-Protro-Big-Stage-Parade.jpg" class="w-100 h-100">
+                        </div>            
+                        <div class="col-12 col-lg-6 p-2">
+                            <h3 class="fs-5">Nike Kobe 5 Protro Big Stage Parade</h3>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row align-items-center player-shoe my-2 p-md-9 py-md-0">
+                        <div class="col-12 col-lg-6">
+                            <img src="./assets/img/Nike-Kobe-5-Protro-Bruce-Lee-Alternate.jpg" class="w-100 h-100">
+                        </div>            
+                        <div class="col-12 col-lg-6 p-2">
+                            <h3 class="fs-5">Nike Kobe 5 Protro Bruce Lee Alternate</h3>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row align-items-center player-shoe my-2 p-md-9 py-md-0">
+                        <div class="col-12 col-lg-6">
+                            <img src="./assets/img/Nike-Kobe-5-Protro-Chaos.jpg" class="w-100 h-100">
+                        </div>            
+                        <div class="col-12 col-lg-6 p-2">
+                            <h3 class="fs-5">Nike Kobe 5 Protro Chaos</h3>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-2 py-md-5 text-white position-relative">
+            <div class="container overflow-x-hidden py-5 d-flex align-items-center flex-column-reverse flex-md-row">
+                <div class="col-12 col-md-6 scroll py-3 px-2" data-aos="fade-right"
+                data-aos-duration="2000">
+                    <div class="d-flex flex-column flex-lg-row align-items-center player-shoe my-2 p-md-9 py-md-0">
+                        <div class="col-12 col-lg-6">
+                            <img src="./assets/img/Adidas Harden Vol. 1.jpg" class="w-100 h-100 gray-hover">
+                        </div>            
+                        <div class="col-12 col-lg-6 p-2">
+                            <h3 class="fs-5">Adidas Harden Vol. 1</h3>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row align-items-center player-shoe my-2 p-md-9 py-md-0">
+                        <div class="col-12 col-lg-6">
+                            <img src="./assets/img/Adidas Harden Vol. 3.jpg" class="w-100 h-100">
+                        </div>            
+                        <div class="col-12 col-lg-6 p-2">
+                            <h3 class="fs-5">Adidas Harden Vol. 3</h3>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row align-items-center player-shoe my-2 p-md-9 py-md-0">
+                        <div class="col-12 col-lg-6">
+                            <img src="./assets/img/Adidas Harden Vol. 4.jpg" class="w-100 h-100">
+                        </div>            
+                        <div class="col-12 col-lg-6 p-2">
+                            <h3 class="fs-5">Adidas Harden Vol. 4</h3>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row align-items-center player-shoe my-2 p-md-9 py-md-0">
+                        <div class="col-12 col-lg-6">
+                            <img src="./assets/img/Adidas Crazylight Boost 2016.jpg" class="w-100 h-100">
+                        </div>            
+                        <div class="col-12 col-lg-6 p-2">
+                            <h3 class="fs-5">Adidas Crazylight Boost 2016</h3>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-5 mb-md-0 px-2 text-center">
+                    <img src="./assets/img/harden.png" class="w-100" data-aos="fade-left"
+                    data-aos-duration="2000">
+                    <span class="rotate-text right fs-3 fw-light text-white-50 position-static position-sm-absolute">James Harden</span>  
+                </div>
+            </div>
+        </div>
+        <div class="py-2 py-md-5 text-white position-relative">
+            <div class="container overflow-x-hidden py-5 d-flex align-items-center flex-column flex-md-row">
+                <div class="col-12 col-md-6 mb-5 mb-md-0 px-2 text-center">
+                    <img src="./assets/img/westbrook.png" class="w-100" data-aos="fade-right"
+                    data-aos-duration="2000">
+                    <span class="rotate-text left fs-3 fw-light text-white-50 position-static position-sm-absolute">Russell Westbrook</span>  
+                </div>
+                <div class="col-12 col-md-6 scroll py-3 px-2" data-aos="fade-left"
+                data-aos-duration="2000">
+                    <div class="d-flex flex-column flex-lg-row align-items-center player-shoe my-2 p-md-9 py-md-0">
+                        <div class="col-12 col-lg-6">
+                            <img src="./assets/img/Adidas-D.O.N.-Issue-2.jpg" class="w-100 h-100">
+                        </div>            
+                        <div class="col-12 col-lg-6 p-2">
+                            <h3 class="fs-5">Adidas D.O.N. Issue #2</h3>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row align-items-center player-shoe my-2 p-md-9 py-md-0">
+                        <div class="col-12 col-lg-6">
+                            <img src="./assets/img/Dame 7 Shoes.jpg" class="w-100 h-100">
+                        </div>            
+                        <div class="col-12 col-lg-6 p-2">
+                            <h3 class="fs-5">Dame 7 Shoes</h3>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row align-items-center player-shoe my-2 p-md-9 py-md-0">
+                        <div class="col-12 col-lg-6">
+                            <img src="./assets/img/Nike LeBron 18 Lakers.jpg" class="w-100 h-100">
+                        </div>            
+                        <div class="col-12 col-lg-6 p-2">
+                            <h3 class="fs-5">Nike LeBron 18 Lakers</h3>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row align-items-center player-shoe my-2 p-md-9 py-md-0">
+                        <div class="col-12 col-lg-6">
+                            <img src="./assets/img/Nike PG 4.jpg" class="w-100 h-100">
+                        </div>            
+                        <div class="col-12 col-lg-6 p-2">
+                            <h3 class="fs-5">Nike PG 4</h3>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-2 py-sm-5" id="shoes">
+        <div class="container">
+            <h2 class="text-center text-white fw-light" data-aos="fade-up"
+            data-aos-duration="2000">Choose your gear</h2>
+            <div class="d-grid g-5 py-5 my-2">
+                <div class="row px-3 px-md-0">
+                    <div class="d-flex flex-column flex-lg-row align-items-center text-white col-12 col-md-6 p-0 p-md-3" data-aos="fade-up"
+                    data-aos-duration="3000">
+                        <div class="col-12 col-lg-6 p-2">
+                            <img src="./assets/img/PUMA RS-Dreamer.png" class="w-100 shoe">
+                        </div>                
+                        <div class="col-12 col-lg-6 p-3 p-md-0">
+                            <h3 class="fs-5">PUMA RS-Dreamer</h3>
+                            <p class="text-white-50 text-align-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim molestiae quidem vitae ipsa est. Ullam quasi nobis perspiciatis vitae expedita?</p>
+                            <button class="btn primary">More info</button>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row align-items-center text-white col-12 col-md-6 p-0 p-md-3" data-aos="fade-up"
+                    data-aos-duration="3000">
+                        <div class="col-12 col-lg-6 p-2">
+                            <img src="./assets/img/Nike LeBron 17 Low.png" class="w-100 shoe">
+                        </div>                
+                        <div class="col-12 col-lg-6 p-3 p-md-0">
+                            <h3 class="fs-5">Nike LeBron 17 Low</h3>
+                            <p class="text-white-50 text-align-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim molestiae quidem vitae ipsa est. Ullam quasi nobis perspiciatis vitae expedita?</p>
+                            <button class="btn primary">More info</button>
+                        </div>
+                    </div>
+                </div>          
+                <div class="row px-3 px-md-0">
+                    <div class="d-flex flex-column flex-lg-row align-items-center text-white col-12 col-md-6 p-0 p-md-3" data-aos="fade-up"
+                    data-aos-duration="3000">
+                        <div class="col-12 col-lg-6 p-2">
+                            <img src="./assets/img/Nike Kyrie 7.png" class="w-100 shoe">
+                        </div>                
+                        <div class="col-12 col-lg-6 p-3 p-md-0">
+                            <h3 class="fs-5">Nike Kyrie 7</h3>
+                            <p class="text-white-50 text-align-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim molestiae quidem vitae ipsa est. Ullam quasi nobis perspiciatis vitae expedita?</p>
+                            <button class="btn primary">More info</button>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row align-items-center text-white col-12 col-md-6 p-0 p-md-3" data-aos="fade-up"
+                    data-aos-duration="3000">
+                        <div class="col-12 col-lg-6 p-2">
+                            <img src="./assets/img/Nike Air More Uptempo.png" class="w-100 shoe">
+                        </div>                
+                        <div class="col-12 col-lg-6 p-3 p-md-0">
+                            <h3 class="fs-5">Nike Air More Uptempo</h3>
+                            <p class="text-white-50 text-align-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim molestiae quidem vitae ipsa est. Ullam quasi nobis perspiciatis vitae expedita?</p>
+                            <button class="btn primary">More info</button>
+                        </div>
+                    </div>
+                </div>          
+                <div class="row px-3 px-md-0">
+                    <div class="d-flex flex-column flex-lg-row align-items-center text-white col-12 col-md-6 p-0 p-md-3" data-aos="fade-up"
+                    data-aos-duration="3000">
+                        <div class="col-12 col-lg-6 p-2">
+                            <img src="./assets/img/Nike Air Force 1 LV8.png" class="w-100 shoe">
+                        </div>                
+                        <div class="col-12 col-lg-6 p-3 p-md-0">
+                            <h3 class="fs-5">Nike Air Force 1 LV8</h3>
+                            <p class="text-white-50 text-align-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim molestiae quidem vitae ipsa est. Ullam quasi nobis perspiciatis vitae expedita?</p>
+                            <button class="btn primary">More info</button>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row align-items-center text-white col-12 col-md-6 p-0 p-md-3" data-aos="fade-up"
+                    data-aos-duration="3000">
+                        <div class="col-12 col-lg-6 p-2">
+                            <img src="./assets/img/Jordan AJ 1 Mid.png" class="w-100 shoe">
+                        </div>                
+                        <div class="col-12 col-lg-6 p-3 p-md-0">
+                            <h3 class="fs-5">Jordan AJ 1 Mid</h3>
+                            <p class="text-white-50 text-align-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim molestiae quidem vitae ipsa est. Ullam quasi nobis perspiciatis vitae expedita?</p>
+                            <button class="btn primary">More info</button>
+                        </div>
+                    </div>
+                </div>          
+                <div class="box card">                   
+                    <div class="d-flex flex-column align-items-center p-2 p-md-5 bg-light">
+                        <div class="col-12 col-sm-6 d-flex p-2">
+                            <img src="" class="place-img w-100">
+                        </div>                   
+                        <img src="./assets/img/close.svg" class="position-absolute" data-close>                
+                        <div class="col-12">
+                            <span class="d-block mb-2">Change Color</span>
+                            <input type="range" class="w-100" value="0" min="0" max="345">  
+                        </div>                    
+                    </div>    
+                </div>
+                <div class="overlay"></div>
+            </div>       
+        </div>
+    </div>
+    <div class="py-2 py-sm-5" id="contact">
+        <div class="container overflow-x-hidden text-white py-5 mb-5">
+            <div class="col-12 col-md-6">
+                <h2 class="display-4 mb-2" data-aos="fade-up"
+                data-aos-duration="2000">Have any questions?</h2>
+                <p class="text-white-50" data-aos="fade-up"
+                data-aos-duration="2000">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque repellat ex unde?</p>
+                <button class="btn primary" data-aos="fade-right"
+                data-aos-duration="2000">Click Here</button>
+            </div>
+        </div>
+    </div>
+    <footer class="pt-5 pb-3 bg-dark">
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row justify-content-between text-white mb-5">
+                <div class="col-6 mb-4 mb-md-0">
+                   <h5 class="fs-5">Logo</h5>
+                </div>
+                <div class="mb-4 mb-md-0">
+                    <h5 class="fs-5">Products</h5>
+                    <ul class="list-unstyled text-white-50">
+                        <li class="mb-2">Link</li>
+                        <li class="mb-2">Link</li>
+                        <li class="mb-2">Link</li>
+                        <li class="mb-2">Link</li>
+                    </ul>
+                </div>
+                <div class="mb-4 mb-md-0">
+                    <h5 class="fs-5">Social</h5>
+                    <ul class="list-unstyled text-white-50">
+                        <li class="mb-2">Link</li>
+                        <li class="mb-2">Link</li>
+                        <li class="mb-2">Link</li>
+                        <li class="mb-2">Link</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="fs-5">Partners</h5>
+                    <ul class="list-unstyled text-white-50">
+                        <li class="mb-2">Link</li>
+                        <li class="mb-2">Link</li>
+                        <li class="mb-2">Link</li>
+                        <li class="mb-2">Link</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex flex-column align-items-center flex-md-row justify-content-between text-white">          
+                <div class="d-flex flex-column">
+                    <p class="mb-2">Made by Godfrey Necesario</p>
+                    <p class="text-white-50">All images of this website are not mine and used for educational purposes only.</p>
+                </div>           
+                <div class="social align-self-start align-self-md-center">
+                    <img src="./assets/img/facebook.svg" alt="icon">
+                    <img src="./assets/img/instagram.svg" alt="icon" class="px-3">
+                    <img src="./assets/img/twitter.svg" alt="icon">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
