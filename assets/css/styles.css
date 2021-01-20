@@ -91,6 +91,7 @@ video{
     background-size: cover;
     background-position: center;
     filter: grayscale(100%);
+    background-attachment: fixed;
 }
 
 .scroll{
