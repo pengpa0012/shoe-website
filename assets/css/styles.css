@@ -206,6 +206,11 @@ footer img:hover{
     .gray-hover{
         filter: grayscale(0);
     }
+    
+    .scroll{
+        height: auto;
+        overflow-y: unset;
+    }
 }
 
 @media (min-width: 768px){
